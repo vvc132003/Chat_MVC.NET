@@ -170,13 +170,15 @@ namespace Chat.Controllers
                 List<NhanTin> tinnhanlisst = tinNhanService.GetAllTinNhanByIdGuiNhan(id, idnguoidungnhan);
                 NguoiDung nguoidung = nguoiDungService.GetAllById(idnguoidungnhan);
                 string html = "";
-                foreach (var tinNhan in tinnhanlisst)
+                if (tinnhanlisst.Count > 0)
                 {
-                    string liClass = (tinNhan.idnguoidungnhan == id) ? "me" : "you";
-                    string avatarUrl = (liClass == "me") ? nguoidung.anhdaidien : anhdaidien;
-                    string thoigiangui = tinNhan.ThoiGianGui.ToString("HH:mm");
-                    html += $@"<li class=""{liClass}"">
-                                                    <figure><img src=""{avatarUrl}"" alt=""""></figure>
+                    foreach (var tinNhan in tinnhanlisst)
+                    {
+                        string classs = (tinNhan.idnguoidungnhan == id) ? "me" : "you";
+                        string anh = (classs == "me") ? nguoidung.anhdaidien : anhdaidien;
+                        string thoigiangui = tinNhan.ThoiGianGui.ToString("HH:mm");
+                        html += $@"<li class=""{classs}"">
+                                                    <figure><img src=""{anh}"" alt=""""></figure>
                                                     <div class=""text-box"">
                                                         <p>
                                                             {tinNhan.NoiDung}
@@ -187,6 +189,20 @@ namespace Chat.Controllers
                                                         </span>
                                                     </div>
                                                 </li>";
+                    }
+                }
+                else
+                {
+                    html += @"
+                    <div class=""mesge-area conversations"">
+											<div class=""empty-chat"">
+												<div class=""no-messages"">
+													<i class=""fas fa-comments""></i> 
+													<p>Nhập tin nhắn để gửi</p>
+												</div>
+											</div>
+										</div>
+";
                 }
                 return Content(html);
             }
