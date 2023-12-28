@@ -1,5 +1,6 @@
 ﻿@model List<models.ModelData>
 <link rel="icon" href="images/fav.png" type="image/png" sizes="16x16">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 <link href="~/css/main.min.css" rel="stylesheet" />
 <link href="~/css/style.css" rel="stylesheet" />
 <link href="~/css/color.css" rel="stylesheet" />
@@ -16,13 +17,13 @@
                                 <h4>Chat Messages</h4>
                                 <div class="more">
                                     <div class="more-post-optns">
-                                        <i class="ti-settings"></i>
+                                        <i class="fas fa-cog"></i>
                                         <ul>
-                                            <li><i class="fa fa-wrench"></i>Setting</li>
-                                            <li><i class="fa fa-envelope-open"></i>Active Contacts</li>
-                                            <li><i class="fa fa-folder-open"></i>Archives Chats</li>
-                                            <li><i class="fa fa-eye-slash"></i>Unread Chats</li>
-                                            <li><i class="fa fa-flag"></i>Report a problem</li>
+                                            <li><i class="fas fa-wrench"></i>Setting</li>
+                                            <li><i class="fas fa-envelope-open"></i>Active Contacts</li>
+                                            <li><i class="fas fa-folder-open"></i>Archives Chats</li>
+                                            <li><i class="fas fa-eye-slash"></i>Unread Chats</li>
+                                            <li><i class="fas fa-flag"></i>Report a problem</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -30,7 +31,7 @@
                             <div class="message-people-srch">
                                 <form method="post">
                                     <input type="text" placeholder="Search Friend..">
-                                    <button type="submit"><i class="fa fa-search"></i></button>
+                                    <button type="submit"><i class="fas fa-search"></i></button>
                                 </form>
                                 <div class="btn-group add-group" role="group">
                                     <button id="btnGroupDrop2" type="button"
@@ -68,41 +69,34 @@
                                     <div class="col-lg-12">
                                         <div class="mesg-area-head">
                                             <div class="active-user">
-                                                <figure>
-                                                    <img src="images/resources/friend-avatar3.jpg" alt="">
-                                                    <span class="status f-online"></span>
-                                                </figure>
-                                                <div>
-                                                    <h6 class="unread">Andrew</h6>
-                                                    <span>Online</span>
-                                                </div>
+                                                
                                             </div>
                                             <ul class="live-calls">
-                                                <li class="audio-call"><span class="fa fa-phone"></span></li>
-                                                <li class="video-call"><span class="fa fa-video"></span></li>
-                                                <li class="uzr-info"><span class="fa fa-info-circle"></span></li>
+                                                <li class="audio-call"><span class="fas fa-phone"></span></li>
+                                                <li class="video-call"><span class="fas fa-video"></span></li>
+                                                <li class="uzr-info"><span class="fas fa-info-circle"></span></li>
                                                 <li>
                                                     <div class="dropdown">
                                                         <button class="btn" data-toggle="dropdown"
                                                                 aria-haspopup="true" aria-expanded="false">
-                                                            <i class="ti-view-grid"></i>
+                                                            <i class="fas fa-th-large"></i>
                                                         </button>
                                                         <div class="dropdown-menu dropdown-menu-right">
                                                             <a class="dropdown-item audio-call" href="#">
-                                                                <i class="ti-headphone-alt"></i>Voice Call
+                                                                <i class="fas fa-headphones"></i>Voice Call
                                                             </a>
                                                             <a href="#" class="dropdown-item video-call">
-                                                                <i class="ti-video-camera"></i>Video Call
+                                                                <i class="fas fa-video"></i>Video Call
                                                             </a>
                                                             <hr>
                                                             <a href="#" class="dropdown-item">
-                                                                <i class="ti-server"></i>Clear History
+                                                                <i class="fas fa-server"></i>Clear History
                                                             </a>
                                                             <a href="#" class="dropdown-item">
-                                                                <i class="ti-hand-stop"></i>Block Contact
+                                                                <i class="fas fa-hand-stop"></i>Block Contact
                                                             </a>
                                                             <a href="#" class="dropdown-item">
-                                                                <i class="ti-trash"></i>Delete Contact
+                                                                <i class="fas fa-trash"></i>Delete Contact
                                                             </a>
                                                         </div>
                                                     </div>
@@ -124,28 +118,7 @@
                                     </div>
                                     <div class="col-lg-4 col-md-4">
                                         <div class="chater-info">
-                                            <figure><img src="images/resources/chatuser1.jpg" alt=""></figure>
-                                            <h6>Andrew</h6>
-                                            <span>Online</span>
-                                            <div class="userabout">
-                                                <span>About</span>
-                                                <p>
-                                                    I love reading, traveling and discovering new things. You need to
-                                                    be happy in life.
-                                                </p>
-                                                <ul>
-                                                    <li><span>Phone:</span> +123976980</li>
-                                                    <li>
-                                                        <span>Website:</span> <a href="#" title="">www.abc.com</a>
-                                                    </li>
-                                                    <li>
-                                                        <span>Email:</span> <a href="http://wpkixx.com/cdn-cgi/l/email-protection"
-                                                                               class="__cf_email__"
-                                                                               data-cfemail="a0d3c1cdd0ccc5e0c7cdc1c9cc8ec3cfcd">[email&#160;protected]</a>
-                                                    </li>
-                                                    <li><span>Phone:</span> Ontario, Canada</li>
-                                                </ul>
-                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -180,7 +153,6 @@
         #sendButton:hover {
             background-color: #45a049;
         }
-
 </style>
 <script src="~/microsoft/signalr/dist/browser/signalr.js"></script>
 <script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>

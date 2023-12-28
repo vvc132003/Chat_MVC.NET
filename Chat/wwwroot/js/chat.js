@@ -47,6 +47,30 @@ function displayMessages(idnguoidungnhan) {
             alert('Đã xảy ra lỗi khi lấy tin nhắn.');
         }
     });
+    $.ajax({
+        type: 'POST',
+        url: '/Home/Nguoidung',
+        data: { idnguoidungnhan: idnguoidungnhan },
+        success: function (data) {
+            $('.active-user').html(data);
+            $('.active-user').scrollTop($('.active-user')[0].scrollHeight);
+        },
+        error: function () {
+            alert('Đã xảy ra lỗi khi lấy tin nhắn.');
+        }
+    });
+    $.ajax({
+        type: 'POST',
+        url: '/Home/ThongTinNguoidung',
+        data: { idnguoidungnhan: idnguoidungnhan },
+        success: function (data) {
+            $('.chater-info').html(data);
+            $('.chater-info').scrollTop($('.chater-info')[0].scrollHeight);
+        },
+        error: function () {
+            alert('Đã xảy ra lỗi khi lấy tin nhắn.');
+        }
+    });
 }
 function callChatBot() {
     $.ajax({
@@ -60,4 +84,3 @@ function callChatBot() {
         }
     });
 }
-

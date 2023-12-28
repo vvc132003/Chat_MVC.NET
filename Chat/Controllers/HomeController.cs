@@ -113,14 +113,14 @@ namespace Chat.Controllers
                                                     </div>
                                                     <div class=""more"">
                                                         <div class=""more-post-optns"">
-                                                            <i class=""ti-more-alt""></i>
+                                                            <i class=""fas fa-ellipsis-h""></i>
                                                             <ul>
-                                                                <li><i class=""fa fa-bell-slash-o""></i>Mute</li>
-                                                                <li><i class=""ti-trash""></i>Delete</li>
-                                                                <li><i class=""fa fa-folder-open-o""></i>Archive</li>
-                                                                <li><i class=""fa fa-ban""></i>Block</li>
-                                                                <li><i class=""fa fa-eye-slash""></i>Ignore Message</li>
-                                                                <li><i class=""fa fa-envelope""></i>Mark Unread</li>
+                                                                <li><i class=""fas fa-bell-slash""></i>Mute</li>
+                                                                <li><i class=""fas fa-trash-alt""></i>Delete</li>
+                                                                <li><i class=""fas fa-folder-open""></i>Archive</li>
+                                                                <li><i class=""fas fa-ban""></i>Block</li>
+                                                                <li><i class=""fas fa-eye-slash""></i>Ignore Message</li>
+                                                                <li><i class=""fas fa-envelope""></i>Mark Unread</li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -188,6 +188,80 @@ namespace Chat.Controllers
                                                     </div>
                                                 </li>";
                 }
+                return Content(html);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+        public IActionResult Nguoidung(int idnguoidungnhan)
+        {
+            if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null && HttpContext.Session.GetString("anhdaidien") != null)
+            {
+                int id = HttpContext.Session.GetInt32("id").Value;
+                string hovaten = HttpContext.Session.GetString("hovaten");
+                string anhdaidien = HttpContext.Session.GetString("anhdaidien");
+                ViewData["id"] = id;
+                ViewData["hovaten"] = hovaten;
+                ViewData["anhdaidien"] = anhdaidien;
+                NguoiDung nguoidung = nguoiDungService.GetAllById(idnguoidungnhan);
+                string html = "";
+                html += $@"
+                                                <figure>
+                                                    <img src=""{nguoidung.anhdaidien}"" alt="""">
+                                                    <span class=""status f-online""></span>
+                                                </figure>
+                                                <div>
+                                                    <h6 class=""unread"">{nguoidung.hovaten}</h6>
+                                                    <span>Online</span>
+                                                </div>
+";
+
+                return Content(html);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+        public IActionResult ThongTinNguoidung(int idnguoidungnhan)
+        {
+            if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null && HttpContext.Session.GetString("anhdaidien") != null)
+            {
+                int id = HttpContext.Session.GetInt32("id").Value;
+                string hovaten = HttpContext.Session.GetString("hovaten");
+                string anhdaidien = HttpContext.Session.GetString("anhdaidien");
+                ViewData["id"] = id;
+                ViewData["hovaten"] = hovaten;
+                ViewData["anhdaidien"] = anhdaidien;
+                NguoiDung nguoidung = nguoiDungService.GetAllById(idnguoidungnhan);
+                string html = "";
+                html += $@"
+                                        <figure><img src=""{nguoidung.anhdaidien}"" alt=""""></figure>
+                                            <h6>{nguoidung.hovaten}</h6>
+                                            <span>Online</span>
+                                            <div class=""userabout"">
+                                                <span>About</span>
+                                                <p>
+                                                    I love reading, traveling and discovering new things. You need to
+                                                    be happy in life.
+                                                </p>
+                                                <ul>
+                                                    <li><span>Phone:</span> +123976980</li>
+                                                    <li>
+                                                        <span>Website:</span> <a href=""#"" title="""">www.abc.com</a>
+                                                    </li>
+                                                    <li>
+                                                        <span>Email:</span> <a href=""http://wpkixx.com/cdn-cgi/l/email-protection""
+                                                                               class=""__cf_email__""
+                                                                               data-cfemail=""a0d3c1cdd0ccc5e0c7cdc1c9cc8ec3cfcd"">[email&#160;protected]</a>
+                                                    </li>
+                                                    <li><span>Phone:</span> Ontario, Canada</li>
+                                                </ul>
+                                            </div>
+";
+
                 return Content(html);
             }
             else

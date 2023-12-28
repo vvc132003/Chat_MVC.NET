@@ -1,28 +1,20 @@
 ﻿@model List<models.ModelData>
-@* <link rel="icon" href="/static/images/fav.png" type="image/png" sizes="16x16">
-<link rel="stylesheet" href="/static/css/main.min.css">
-<link rel="stylesheet" href="/static/css/weather-icons.min.css">
-<link rel="stylesheet" href="/static/css/toast-notification.css">
-<link rel="stylesheet" href="/static/css/page-tour.css">
-<link rel="stylesheet" href="/static/css/style.css">
-<link rel="stylesheet" href="/static/css/color.css">
-<link rel="stylesheet" href="/static/css/responsive.css"> *@
 <div class="responsive-header">
     <div class="mh-head first Sticky">
         <span class="mh-btns-left">
-            <a class="" href="#menu"><i class="fa fa-align-justify"></i></a>
+            <a class="" href="#menu"><i class="fas fa-align-justify"></i></a>
         </span>
         <span class="mh-text">
             <a href="newsfeed.html" title=""><img src="/images/logo2.png" alt=""></a>
         </span>
         <span class="mh-btns-right">
-            <a class="fa fa-sliders" href="#shoppingbag"></a>
+            <a class="fas fa-sliders" href="#shoppingbag"></a>
         </span>
     </div>
     <div class="mh-head second">
         <form class="mh-form">
             <input placeholder="search" />
-            <a href="#/" class="fa fa-search"></a>
+            <a href="#/" class="fas fa-search"></a>
         </form>
     </div>
     <nav id="menu" class="res-menu">
@@ -234,7 +226,7 @@
     <div class="top-area">
         <div class="main-menu">
             <span>
-                <i class="fa fa-braille"></i>
+                <i class="fas fa-braille"></i>
             </span>
         </div>
         <div class="top-search">
@@ -247,12 +239,12 @@
             <span>Newsfeed</span>
         </div>
         <ul class="setting-area">
-            <li><a href="newsfeed.html" title="Home" data-ripple=""><i class="fa fa-home"></i></a></li>
+            <li><a href="newsfeed.html" title="Home" data-ripple=""><i class="fas fa-home"></i></a></li>
             @*             /// kết bạn
             *@
             <li>
                 <a href="#" title="Friend Requests" data-ripple="">
-                    <i class="fa fa-user"></i><em class="bg-red">5</em>
+                    <i class="fas fa-user"></i><em class="bg-red">5</em>
                 </a>
                 <div class="dropdowns">
                     <span>5 New Requests <a href="#" title="">View all Requests</a></span>
@@ -281,7 +273,7 @@
             *@
             <li>
                 <a href="#" title="Notification" data-ripple="">
-                    <i class="fa fa-bell"></i><em class="bg-purple">7</em>
+                    <i class="fas fa-bell"></i><em class="bg-purple">7</em>
                 </a>
                 <div class="dropdowns">
                     <span>4 New Notifications <a href="#" title="">Mark all as read</a></span>
@@ -314,7 +306,7 @@
             *@
             <li>
                 <a onclick="loadbanbe()" href="#" title="Messages" data-ripple="">
-                    <i class="fa fa-commenting"></i><em class="bg-blue">9</em>
+                    <i class="fas fa-commenting"></i><em class="bg-blue">9</em>
                 </a>
                 <div class="dropdowns">
                     <span>5 New Messages <a href="#" title="">Mark all as read</a></span>
@@ -325,7 +317,7 @@
                 </div>
             </li>
             <li>
-                <a href="#" title="Languages" data-ripple=""><i class="fa fa-globe"></i><em>EN</em></a>
+                <a href="#" title="Languages" data-ripple=""><i class="fas fa-globe"></i><em>EN</em></a>
                 <div class="dropdowns languages">
                     <div data-gutter="10" class="row">
                         <div class="col-md-3">
@@ -591,7 +583,7 @@
                 </div>
             </li>
             <li>
-                <a href="#" title="Help" data-ripple=""><i class="fa fa-question-circle"></i></a>
+                <a href="#" title="Help" data-ripple=""><i class="fas fa-question-circle"></i></a>
                 <div class="dropdowns helps">
                     <span>Quick Help</span>
                     <form method="post">
@@ -599,18 +591,18 @@
                     </form>
                     <span>Help with this page</span>
                     <ul class="help-drop">
-                        <li><a href="forum.html" title=""><i class="fa fa-book"></i>Community & Forum</a></li>
-                        <li><a href="faq.html" title=""><i class="fa fa-question-circle-o"></i>FAQs</a></li>
-                        <li><a href="career.html" title=""><i class="fa fa-building-o"></i>Carrers</a></li>
+                        <li><a href="forum.html" title=""><i class="fas fa-book"></i>Community & Forum</a></li>
+                        <li><a href="faq.html" title=""><i class="fas fa-question-circle-o"></i>FAQs</a></li>
+                        <li><a href="career.html" title=""><i class="fas fa-building-o"></i>Carrers</a></li>
                         <li>
                             <a href="privacy.html" title="">
-                                <i class="fa fa-pencil-square-o"></i>Terms &
+                                <i class="fas fa-pencil-square-o"></i>Terms &
                                 Policy
                             </a>
                         </li>
-                        <li><a href="#" title=""><i class="fa fa-map-marker"></i>Contact</a></li>
+                        <li><a href="#" title=""><i class="fas fa-map-marker"></i>Contact</a></li>
                         <li>
-                            <a href="#" title=""><i class="fa fa-exclamation-triangle"></i>Report a Problem</a>
+                            <a href="#" title=""><i class="fas fa-exclamation-triangle"></i>Report a Problem</a>
                         </li>
                     </ul>
                 </div>
@@ -639,12 +631,12 @@
                 </ul>
             </div>
         </div>
-        <span class="ti-settings main-menu" data-ripple=""></span>
+        <span class="fas fa-cog main-menu" data-ripple=""></span>
     </div>
     <nav>
         <ul class="nav-list">
             <li>
-                <a class="" href="#" title=""><i class="fa fa-home"></i> Home Pages</a>
+                <a class="" href="#" title=""><i class="fas fa-home"></i> Home Pages</a>
                 <ul>
                     <li><a href="index.html" title="">Pitnik Default</a></li>
                     <li><a href="company-landing.html" title="">Company Landing</a></li>
@@ -662,7 +654,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-film"></i> Pittube</a>
+                <a class="" href="#" title=""><i class="fas fa-film"></i> Pittube</a>
                 <ul>
                     <li><a href="pittube.html" title="">Pittube</a></li>
                     <li><a href="pittube-detail.html" title="">Pittube single</a></li>
@@ -672,7 +664,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-female"></i> PitPoint</a>
+                <a class="" href="#" title=""><i class="fas fa-female"></i> PitPoint</a>
                 <ul>
                     <li><a href="pitpoint.html" title="">PitPoint</a></li>
                     <li><a href="pitpoint-detail.html" title="">Pitpoint Detail</a></li>
@@ -682,7 +674,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-graduation-cap"></i> Pitjob</a>
+                <a class="" href="#" title=""><i class="fas fa-graduation-cap"></i> Pitjob</a>
                 <ul>
                     <li><a href="career.html" title="">Pitjob</a></li>
                     <li><a href="career-detail.html" title="">Pitjob Detail</a></li>
@@ -691,7 +683,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-repeat"></i> Timeline</a>
+                <a class="" href="#" title=""><i class="fas fa-repeat"></i> Timeline</a>
                 <ul>
                     <li><a href="timeline.html" title="">Timeline</a></li>
                     <li><a href="timeline-photos.html" title="">Timeline Photos</a></li>
@@ -707,7 +699,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-heart"></i> Favourit Page</a>
+                <a class="" href="#" title=""><i class="fas fa-heart"></i> Favourit Page</a>
                 <ul>
                     <li><a href="fav-page.html" title="">Favourit Page</a></li>
                     <li><a href="fav-favers.html" title="">Fav Page Likers</a></li>
@@ -719,7 +711,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-forumbee"></i> Forum</a>
+                <a class="" href="#" title=""><i class="fas fa-forumbee"></i> Forum</a>
                 <ul>
                     <li><a href="forum.html" title="">Forum</a></li>
                     <li><a href="forum-create-topic.html" title="">Forum Create Topic</a></li>
@@ -728,7 +720,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-star-o"></i> Featured</a>
+                <a class="" href="#" title=""><i class="fas fa-star-o"></i> Featured</a>
                 <ul>
                     <li><a href="chat-messenger.html" title="">Messenger (Chatting)</a></li>
                     <li><a href="notifications.html" title="">Notifications</a></li>
@@ -742,7 +734,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-gears"></i> Account Setting</a>
+                <a class="" href="#" title=""><i class="fas fa-gears"></i> Account Setting</a>
                 <ul>
                     <li><a href="setting.html" title="">Setting</a></li>
                     <li><a href="privacy.html" title="">Privacy</a></li>
@@ -752,7 +744,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-lock"></i> Authentication</a>
+                <a class="" href="#" title=""><i class="fas fa-lock"></i> Authentication</a>
                 <ul>
                     <li><a href="login.html" title="">Login Page</a></li>
                     <li><a href="register.html" title="">Register Page</a></li>
@@ -764,7 +756,7 @@
                 </ul>
             </li>
             <li>
-                <a class="" href="#" title=""><i class="fa fa-wrench"></i> Tools</a>
+                <a class="" href="#" title=""><i class="fas fa-wrench"></i> Tools</a>
                 <ul>
                     <li><a href="typography.html" title="">Typography</a></li>
                     <li><a href="popup-modals.html" title="">Popups/Modals</a></li>
