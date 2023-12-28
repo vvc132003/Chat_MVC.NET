@@ -1,0 +1,11 @@
+D:\duan\Chat\models\bin\Debug\net6.0\models.deps.json
+D:\duan\Chat\models\bin\Debug\net6.0\models.dll
+D:\duan\Chat\models\bin\Debug\net6.0\models.pdb
+D:\duan\Chat\models\obj\Debug\net6.0\models.GeneratedMSBuildEditorConfig.editorconfig
+D:\duan\Chat\models\obj\Debug\net6.0\models.AssemblyInfoInputs.cache
+D:\duan\Chat\models\obj\Debug\net6.0\models.AssemblyInfo.cs
+D:\duan\Chat\models\obj\Debug\net6.0\models.csproj.CoreCompileInputs.cache
+D:\duan\Chat\models\obj\Debug\net6.0\models.dll
+D:\duan\Chat\models\obj\Debug\net6.0\refint\models.dll
+D:\duan\Chat\models\obj\Debug\net6.0\models.pdb
+D:\duan\Chat\models\obj\Debug\net6.0\ref\models.dll

@@ -1,0 +1,118 @@
+﻿@* @model List<models.ModelData>
+<div class="fixed-sidebar right">
+    <div class="chat-friendz">
+        <ul class="chat-users">
+            @if (Model.ketBanlist != null && Model.ketBanlist.Count > 0)
+            {
+                foreach (var ketban in Model.ketBanlist)
+                {
+                    <li>
+                        <div class="author-thmb">
+                            <img onclick="loadTinNhan(@ketban.idnguoidung)" src="@ketban.anhdaidien" alt="">
+                            <span class="status f-online"></span>
+                        </div>
+                    </li>
+                }
+            }
+            else
+            {
+                <p>Không có bạn nào cả</p>
+            }
+        </ul>
+        <div class="chat-box">
+            <div class="chat-head">
+            </div>
+            <div class="chat-list">
+                <ul id="chat"></ul>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="~/microsoft/signalr/dist/browser/signalr.js"></script>
+<script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
+<script src="~/js/chat.js"></script>
+<script>
+    "use strict";
+
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    document.getElementById("sendButton").disabled = true;
+
+    connection.on("ReceiveMessage", function (idnguoidungnhan, NoiDung) {
+        var li = document.createElement("li");
+        li.className = "list-group-item";
+        li.textContent = `${idnguoidungnhan}: ${NoiDung}`;
+        document.getElementById("messagesList").appendChild(li);
+    });
+
+    connection.start().then(function () {
+        document.getElementById("sendButton").disabled = false;
+    }).catch(function (err) {
+        return console.error(err.toString());
+    });
+
+    document.getElementById("sendButton").addEventListener("click", function (event) {
+        var idnguoidungnhan = document.getElementById("idnguoidungnhan").value;
+        var NoiDung = document.getElementById("NoiDung").value;
+        connection.invoke("SendMessage", idnguoidungnhan, NoiDung).catch(function (err) {
+            return console.error(err.toString());
+        });
+        event.preventDefault();
+    });
+    function themTinNhan(idnguoidungnhan) {
+        var NoiDung = $('#NoiDung').val();
+        $.ajax({
+            type: 'POST',
+            url: '/NhanTin/ThemTinNhan',
+            data: { idnguoidungnhan: idnguoidungnhan, NoiDung: NoiDung },
+            success: function () {
+                loadTinNhan(idnguoidungnhan);
+            },
+            error: function (xhr, status, error) {
+                console.error(error);
+            }
+        });
+    }
+    function loadTinNhan(idnguoidungnhan) {
+        $('.chat-box').show();
+        $.ajax({
+            type: 'POST',
+            url: '/NhanTin/Tennguoidung',
+            data: { idnguoidungnhan: idnguoidungnhan },
+            success: function (data) {
+                $('.chat-head').html(data);
+                $('.chat-head').scrollTop($('.chat-head')[0].scrollHeight);
+                $('.chat-head').css({ 'display': 'block' });
+                $('.chat-head li').on('click', function () {
+                    $('.chat-head').css({ 'display': 'none' });
+                });
+            }
+        });
+        $.ajax({
+            type: 'POST',
+            url: '/NhanTin/TinNhan',
+            data: { idnguoidungnhan: idnguoidungnhan },
+            success: function (data) {
+                $('#chat').html(data);
+                $('#chat').scrollTop($('#chat')[0].scrollHeight);
+                $('#chat').css({ 'display': 'block' });
+                $('#chat li').on('click', function () {
+                    $('#chat').css({ 'display': 'none' });
+                });
+            }
+        });
+    }                       
+    function loadbanbe() {
+        $.ajax({
+            type: 'POST',
+            url: '/NhanTin/GetAllTinNhan',
+            success: function (data) {
+                $('.hello').html(data);
+                $('.hello').scrollTop($('.hello')[0].scrollHeight);
+                $('.hello').css({ 'display': 'block' });
+                $('.hello li').on('click', function () {
+                    $('.hello').css({ 'display': 'none' });
+                });
+            }
+        });
+    }
+</script> *@

@@ -1,0 +1,3933 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\calendar.css",
+      "PackagePath": "staticwebassets\\css\\calendar.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\chosen-sprite.png",
+      "PackagePath": "staticwebassets\\css\\chosen-sprite.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\chosen-sprite@2x.png",
+      "PackagePath": "staticwebassets\\css\\chosen-sprite@2x.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\color-pink.css",
+      "PackagePath": "staticwebassets\\css\\color-pink.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\color.css",
+      "PackagePath": "staticwebassets\\css\\color.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\+1.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\+1.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\-1.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\-1.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\100.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\100.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\1234.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\1234.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\8ball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\8ball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\a.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\a.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ab.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ab.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\abc.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\abc.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\abcd.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\abcd.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\accept.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\accept.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\aerial_tramway.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\aerial_tramway.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\airplane.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\airplane.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\alarm_clock.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\alarm_clock.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\alien.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\alien.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ambulance.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ambulance.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\anchor.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\anchor.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\angel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\angel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\anger.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\anger.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\angry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\angry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\anguished.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\anguished.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ant.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ant.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\apple.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\apple.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\aquarius.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\aquarius.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\aries.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\aries.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_backward.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_backward.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_double_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_double_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_double_up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_double_up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_down_small.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_down_small.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_forward.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_forward.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_heading_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_heading_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_heading_up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_heading_up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_left.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_left.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_lower_left.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_lower_left.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_lower_right.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_lower_right.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_right.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_right.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_right_hook.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_right_hook.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_up_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_up_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_up_small.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_up_small.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_upper_left.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_upper_left.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrow_upper_right.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrow_upper_right.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrows_clockwise.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrows_clockwise.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\arrows_counterclockwise.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\arrows_counterclockwise.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\art.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\art.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\articulated_lorry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\articulated_lorry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\astonished.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\astonished.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\atm.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\atm.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\b.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\b.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baby.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baby.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baby_bottle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baby_bottle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baby_chick.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baby_chick.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baby_symbol.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baby_symbol.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\back.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\back.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baggage_claim.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baggage_claim.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\balloon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\balloon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ballot_box_with_check.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ballot_box_with_check.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bamboo.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bamboo.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\banana.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\banana.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bangbang.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bangbang.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bank.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bank.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bar_chart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bar_chart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\barber.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\barber.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\baseball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\baseball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\basketball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\basketball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bath.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bath.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bathtub.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bathtub.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\battery.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\battery.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bear.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bear.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bee.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bee.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\beer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\beer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\beers.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\beers.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\beetle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\beetle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\beginner.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\beginner.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bell.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bell.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bento.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bento.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bicyclist.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bicyclist.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bike.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bike.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bikini.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bikini.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bird.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bird.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\birthday.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\birthday.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_circle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_circle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_joker.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_joker.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_medium_small_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_medium_small_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_medium_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_medium_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_nib.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_nib.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_small_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_small_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\black_square_button.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\black_square_button.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blossom.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blossom.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blowfish.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blowfish.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blue_book.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blue_book.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blue_car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blue_car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blue_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blue_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\blush.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\blush.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\boar.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\boar.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\boat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\boat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bomb.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bomb.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\book.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\book.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bookmark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bookmark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bookmark_tabs.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bookmark_tabs.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\books.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\books.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\boom.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\boom.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\boot.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\boot.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bouquet.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bouquet.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bow.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bow.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bowling.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bowling.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bowtie.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bowtie.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\boy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\boy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bread.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bread.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bride_with_veil.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bride_with_veil.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bridge_at_night.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bridge_at_night.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\briefcase.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\briefcase.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\broken_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\broken_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bug.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bug.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bulb.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bulb.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bullettrain_front.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bullettrain_front.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bullettrain_side.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bullettrain_side.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\busstop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\busstop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\bust_in_silhouette.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\bust_in_silhouette.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\busts_in_silhouette.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\busts_in_silhouette.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cactus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cactus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cake.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cake.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\calendar.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\calendar.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\calling.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\calling.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\camel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\camel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\camera.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\camera.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cancer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cancer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\candy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\candy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\capital_abcd.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\capital_abcd.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\capricorn.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\capricorn.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\card_index.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\card_index.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\carousel_horse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\carousel_horse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cat2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cat2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cd.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cd.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chart_with_downwards_trend.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chart_with_downwards_trend.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chart_with_upwards_trend.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chart_with_upwards_trend.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\checkered_flag.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\checkered_flag.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cherries.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cherries.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cherry_blossom.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cherry_blossom.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chestnut.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chestnut.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chicken.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chicken.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\children_crossing.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\children_crossing.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\chocolate_bar.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\chocolate_bar.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\christmas_tree.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\christmas_tree.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\church.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\church.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cinema.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cinema.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\circus_tent.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\circus_tent.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\city_sunrise.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\city_sunrise.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\city_sunset.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\city_sunset.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cl.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cl.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clap.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clap.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clapper.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clapper.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clipboard.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clipboard.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock1.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock1.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock10.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock10.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock1030.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock1030.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock11.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock11.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock1130.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock1130.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock12.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock12.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock1230.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock1230.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock130.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock130.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock230.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock230.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock3.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock3.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock330.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock330.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock4.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock4.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock430.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock430.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock5.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock5.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock530.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock530.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock6.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock6.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock630.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock630.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock7.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock7.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock730.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock730.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock8.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock8.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock830.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock830.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock9.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock9.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clock930.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clock930.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\closed_book.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\closed_book.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\closed_lock_with_key.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\closed_lock_with_key.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\closed_umbrella.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\closed_umbrella.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cloud.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cloud.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\clubs.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\clubs.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cn.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cn.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cocktail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cocktail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\coffee.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\coffee.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cold_sweat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cold_sweat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\collision.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\collision.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\computer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\computer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\confetti_ball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\confetti_ball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\confounded.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\confounded.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\confused.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\confused.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\congratulations.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\congratulations.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\construction.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\construction.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\construction_worker.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\construction_worker.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\convenience_store.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\convenience_store.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cookie.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cookie.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cool.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cool.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\copyright.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\copyright.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\corn.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\corn.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\couple.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\couple.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\couple_with_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\couple_with_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\couplekiss.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\couplekiss.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cow.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cow.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cow2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cow2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\credit_card.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\credit_card.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\crocodile.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\crocodile.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\crossed_flags.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\crossed_flags.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\crown.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\crown.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\crying_cat_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\crying_cat_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\crystal_ball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\crystal_ball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cupid.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cupid.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\curly_loop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\curly_loop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\currency_exchange.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\currency_exchange.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\curry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\curry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\custard.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\custard.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\customs.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\customs.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\cyclone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\cyclone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dancer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dancer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dancers.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dancers.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dango.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dango.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dash.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dash.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\date.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\date.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\de.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\de.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\deciduous_tree.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\deciduous_tree.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\department_store.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\department_store.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\diamond_shape_with_a_dot_inside.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\diamond_shape_with_a_dot_inside.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\diamonds.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\diamonds.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\disappointed.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\disappointed.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\disappointed_relieved.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\disappointed_relieved.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dizzy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dizzy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dizzy_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dizzy_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\do_not_litter.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\do_not_litter.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dog.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dog.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dog2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dog2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dollar.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dollar.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dolls.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dolls.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dolphin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dolphin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\donut.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\donut.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\door.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\door.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\doughnut.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\doughnut.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dragon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dragon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dragon_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dragon_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dress.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dress.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dromedary_camel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dromedary_camel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\droplet.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\droplet.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\dvd.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\dvd.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\e-mail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\e-mail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ear.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ear.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ear_of_rice.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ear_of_rice.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\earth_africa.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\earth_africa.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\earth_americas.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\earth_americas.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\earth_asia.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\earth_asia.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\egg.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\egg.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eggplant.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eggplant.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eight.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eight.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eight_pointed_black_star.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eight_pointed_black_star.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eight_spoked_asterisk.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eight_spoked_asterisk.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\electric_plug.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\electric_plug.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\elephant.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\elephant.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\email.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\email.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\end.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\end.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\envelope.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\envelope.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\es.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\es.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\euro.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\euro.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\european_castle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\european_castle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\european_post_office.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\european_post_office.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\evergreen_tree.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\evergreen_tree.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\exclamation.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\exclamation.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\expressionless.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\expressionless.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eyeglasses.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eyeglasses.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\eyes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\eyes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\facepunch.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\facepunch.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\factory.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\factory.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fallen_leaf.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fallen_leaf.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\family.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\family.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fast_forward.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fast_forward.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fax.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fax.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fearful.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fearful.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\feelsgood.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\feelsgood.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\feet.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\feet.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ferris_wheel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ferris_wheel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\file_folder.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\file_folder.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\finnadie.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\finnadie.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fire.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fire.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fire_engine.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fire_engine.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fireworks.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fireworks.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\first_quarter_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\first_quarter_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\first_quarter_moon_with_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\first_quarter_moon_with_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fish.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fish.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fish_cake.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fish_cake.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fishing_pole_and_fish.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fishing_pole_and_fish.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fist.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fist.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\five.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\five.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\flags.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\flags.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\flashlight.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\flashlight.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\floppy_disk.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\floppy_disk.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\flower_playing_cards.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\flower_playing_cards.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\flushed.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\flushed.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\foggy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\foggy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\football.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\football.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fork_and_knife.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fork_and_knife.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fountain.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fountain.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\four.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\four.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\four_leaf_clover.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\four_leaf_clover.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fr.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fr.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\free.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\free.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fried_shrimp.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fried_shrimp.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fries.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fries.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\frog.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\frog.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\frowning.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\frowning.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fu.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fu.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\fuelpump.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\fuelpump.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\full_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\full_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\full_moon_with_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\full_moon_with_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\game_die.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\game_die.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gb.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gb.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gem.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gem.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gemini.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gemini.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ghost.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ghost.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gift.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gift.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gift_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gift_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\girl.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\girl.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\globe_with_meridians.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\globe_with_meridians.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\goat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\goat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\goberserk.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\goberserk.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\godmode.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\godmode.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\golf.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\golf.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grapes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grapes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\green_apple.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\green_apple.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\green_book.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\green_book.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\green_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\green_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grey_exclamation.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grey_exclamation.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grey_question.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grey_question.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grimacing.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grimacing.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\grinning.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\grinning.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\guardsman.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\guardsman.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\guitar.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\guitar.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\gun.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\gun.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\haircut.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\haircut.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hamburger.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hamburger.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hammer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hammer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hamster.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hamster.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hand.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hand.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\handbag.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\handbag.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hankey.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hankey.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hash.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hash.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hatched_chick.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hatched_chick.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hatching_chick.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hatching_chick.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\headphones.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\headphones.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hear_no_evil.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hear_no_evil.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heart_decoration.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heart_decoration.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heart_eyes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heart_eyes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heart_eyes_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heart_eyes_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heartbeat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heartbeat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heartpulse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heartpulse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hearts.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hearts.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_check_mark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_check_mark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_division_sign.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_division_sign.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_dollar_sign.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_dollar_sign.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_exclamation_mark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_exclamation_mark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_minus_sign.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_minus_sign.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_multiplication_x.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_multiplication_x.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\heavy_plus_sign.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\heavy_plus_sign.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\helicopter.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\helicopter.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\herb.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\herb.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hibiscus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hibiscus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\high_brightness.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\high_brightness.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\high_heel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\high_heel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hocho.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hocho.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\honey_pot.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\honey_pot.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\honeybee.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\honeybee.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\horse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\horse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\horse_racing.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\horse_racing.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hospital.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hospital.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hotel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hotel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hotsprings.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hotsprings.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hourglass.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hourglass.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hourglass_flowing_sand.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hourglass_flowing_sand.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\house.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\house.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\house_with_garden.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\house_with_garden.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hurtrealbad.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hurtrealbad.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\hushed.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\hushed.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ice_cream.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ice_cream.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\icecream.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\icecream.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\id.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\id.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ideograph_advantage.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ideograph_advantage.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\imp.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\imp.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\inbox_tray.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\inbox_tray.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\incoming_envelope.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\incoming_envelope.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\information_desk_person.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\information_desk_person.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\information_source.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\information_source.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\innocent.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\innocent.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\interrobang.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\interrobang.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\iphone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\iphone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\it.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\it.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\izakaya_lantern.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\izakaya_lantern.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\jack_o_lantern.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\jack_o_lantern.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\japan.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\japan.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\japanese_castle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\japanese_castle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\japanese_goblin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\japanese_goblin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\japanese_ogre.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\japanese_ogre.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\jeans.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\jeans.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\joy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\joy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\joy_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\joy_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\jp.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\jp.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\key.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\key.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\keycap_ten.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\keycap_ten.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kimono.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kimono.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kiss.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kiss.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing_closed_eyes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing_closed_eyes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kissing_smiling_eyes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kissing_smiling_eyes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\koala.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\koala.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\koko.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\koko.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\kr.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\kr.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\large_blue_circle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\large_blue_circle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\large_blue_diamond.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\large_blue_diamond.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\large_orange_diamond.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\large_orange_diamond.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\last_quarter_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\last_quarter_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\last_quarter_moon_with_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\last_quarter_moon_with_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\laughing.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\laughing.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\leaves.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\leaves.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ledger.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ledger.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\left_luggage.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\left_luggage.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\left_right_arrow.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\left_right_arrow.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\leftwards_arrow_with_hook.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\leftwards_arrow_with_hook.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lemon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lemon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\leo.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\leo.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\leopard.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\leopard.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\libra.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\libra.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\light_rail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\light_rail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\link.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\link.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lips.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lips.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lipstick.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lipstick.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lock.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lock.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lock_with_ink_pen.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lock_with_ink_pen.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\lollipop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\lollipop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\loop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\loop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\loudspeaker.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\loudspeaker.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\love_hotel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\love_hotel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\love_letter.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\love_letter.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\low_brightness.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\low_brightness.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\m.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\m.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mag.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mag.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mag_right.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mag_right.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mahjong.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mahjong.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mailbox.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mailbox.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mailbox_closed.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mailbox_closed.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mailbox_with_mail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mailbox_with_mail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mailbox_with_no_mail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mailbox_with_no_mail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\man.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\man.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\man_with_gua_pi_mao.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\man_with_gua_pi_mao.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\man_with_turban.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\man_with_turban.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mans_shoe.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mans_shoe.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\maple_leaf.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\maple_leaf.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mask.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mask.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\massage.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\massage.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\meat_on_bone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\meat_on_bone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mega.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mega.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\melon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\melon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\memo.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\memo.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mens.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mens.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\metal.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\metal.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\metro.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\metro.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\microphone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\microphone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\microscope.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\microscope.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\milky_way.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\milky_way.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\minibus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\minibus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\minidisc.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\minidisc.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mobile_phone_off.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mobile_phone_off.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\money_with_wings.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\money_with_wings.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\moneybag.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\moneybag.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\monkey.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\monkey.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\monkey_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\monkey_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\monorail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\monorail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mortar_board.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mortar_board.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mount_fuji.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mount_fuji.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mountain_bicyclist.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mountain_bicyclist.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mountain_cableway.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mountain_cableway.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mountain_railway.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mountain_railway.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mouse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mouse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mouse2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mouse2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\movie_camera.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\movie_camera.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\moyai.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\moyai.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\muscle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\muscle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mushroom.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mushroom.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\musical_keyboard.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\musical_keyboard.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\musical_note.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\musical_note.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\musical_score.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\musical_score.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\mute.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\mute.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\nail_care.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\nail_care.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\name_badge.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\name_badge.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\neckbeard.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\neckbeard.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\necktie.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\necktie.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\negative_squared_cross_mark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\negative_squared_cross_mark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\neutral_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\neutral_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\new.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\new.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\new_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\new_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\new_moon_with_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\new_moon_with_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\newspaper.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\newspaper.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ng.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ng.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\nine.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\nine.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_bell.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_bell.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_bicycles.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_bicycles.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_entry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_entry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_entry_sign.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_entry_sign.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_good.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_good.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_mobile_phones.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_mobile_phones.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_mouth.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_mouth.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_pedestrians.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_pedestrians.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\no_smoking.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\no_smoking.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\non-potable_water.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\non-potable_water.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\nose.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\nose.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\notebook.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\notebook.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\notebook_with_decorative_cover.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\notebook_with_decorative_cover.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\notes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\notes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\nut_and_bolt.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\nut_and_bolt.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\o.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\o.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\o2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\o2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ocean.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ocean.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\octocat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\octocat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\octopus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\octopus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\oden.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\oden.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\office.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\office.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ok.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ok.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ok_hand.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ok_hand.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ok_woman.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ok_woman.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\older_man.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\older_man.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\older_woman.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\older_woman.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\on.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\on.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\oncoming_automobile.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\oncoming_automobile.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\oncoming_bus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\oncoming_bus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\oncoming_police_car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\oncoming_police_car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\oncoming_taxi.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\oncoming_taxi.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\one.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\one.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\open_file_folder.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\open_file_folder.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\open_hands.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\open_hands.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\open_mouth.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\open_mouth.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ophiuchus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ophiuchus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\orange_book.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\orange_book.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\outbox_tray.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\outbox_tray.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ox.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ox.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\package.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\package.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\page_facing_up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\page_facing_up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\page_with_curl.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\page_with_curl.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pager.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pager.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\palm_tree.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\palm_tree.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\panda_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\panda_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\paperclip.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\paperclip.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\parking.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\parking.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\part_alternation_mark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\part_alternation_mark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\partly_sunny.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\partly_sunny.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\passport_control.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\passport_control.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\paw_prints.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\paw_prints.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\peach.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\peach.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pear.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pear.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pencil.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pencil.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pencil2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pencil2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\penguin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\penguin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pensive.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pensive.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\performing_arts.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\performing_arts.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\persevere.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\persevere.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\person_frowning.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\person_frowning.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\person_with_blond_hair.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\person_with_blond_hair.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\person_with_pouting_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\person_with_pouting_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\phone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\phone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pig.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pig.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pig2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pig2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pig_nose.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pig_nose.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pill.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pill.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pineapple.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pineapple.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pisces.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pisces.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pizza.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pizza.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\plus1.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\plus1.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\point_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\point_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\point_left.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\point_left.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\point_right.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\point_right.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\point_up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\point_up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\point_up_2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\point_up_2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\police_car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\police_car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\poodle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\poodle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\poop.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\poop.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\post_office.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\post_office.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\postal_horn.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\postal_horn.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\postbox.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\postbox.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\potable_water.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\potable_water.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pouch.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pouch.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\poultry_leg.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\poultry_leg.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pound.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pound.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pouting_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pouting_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pray.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pray.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\princess.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\princess.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\punch.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\punch.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\purple_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\purple_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\purse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\purse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\pushpin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\pushpin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\put_litter_in_its_place.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\put_litter_in_its_place.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\question.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\question.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rabbit.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rabbit.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rabbit2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rabbit2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\racehorse.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\racehorse.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\radio.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\radio.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\radio_button.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\radio_button.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rage.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rage.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rage1.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rage1.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rage2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rage2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rage3.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rage3.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rage4.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rage4.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\railway_car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\railway_car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rainbow.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rainbow.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\raised_hand.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\raised_hand.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\raised_hands.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\raised_hands.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\raising_hand.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\raising_hand.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ram.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ram.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ramen.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ramen.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\recycle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\recycle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\red_car.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\red_car.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\red_circle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\red_circle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\registered.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\registered.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\relaxed.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\relaxed.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\relieved.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\relieved.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\repeat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\repeat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\repeat_one.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\repeat_one.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\restroom.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\restroom.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\revolving_hearts.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\revolving_hearts.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rewind.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rewind.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ribbon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ribbon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rice.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rice.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rice_ball.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rice_ball.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rice_cracker.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rice_cracker.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rice_scene.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rice_scene.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ring.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ring.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rocket.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rocket.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\roller_coaster.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\roller_coaster.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rooster.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rooster.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rose.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rose.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rotating_light.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rotating_light.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\round_pushpin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\round_pushpin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rowboat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rowboat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ru.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ru.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\rugby_football.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\rugby_football.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\runner.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\runner.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\running.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\running.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\running_shirt_with_sash.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\running_shirt_with_sash.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sa.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sa.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sagittarius.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sagittarius.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sailboat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sailboat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sake.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sake.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sandal.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sandal.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\santa.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\santa.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\satellite.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\satellite.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\satisfied.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\satisfied.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\saxophone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\saxophone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\school.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\school.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\school_satchel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\school_satchel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\scissors.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\scissors.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\scorpius.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\scorpius.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\scream.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\scream.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\scream_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\scream_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\scroll.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\scroll.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\seat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\seat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\secret.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\secret.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\see_no_evil.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\see_no_evil.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\seedling.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\seedling.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\seven.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\seven.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shaved_ice.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shaved_ice.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sheep.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sheep.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shell.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shell.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ship.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ship.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shipit.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shipit.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shirt.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shirt.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shit.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shit.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shoe.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shoe.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\shower.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\shower.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\signal_strength.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\signal_strength.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\six.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\six.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\six_pointed_star.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\six_pointed_star.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ski.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ski.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\skull.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\skull.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sleeping.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sleeping.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sleepy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sleepy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\slot_machine.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\slot_machine.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\small_blue_diamond.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\small_blue_diamond.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\small_orange_diamond.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\small_orange_diamond.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\small_red_triangle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\small_red_triangle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\small_red_triangle_down.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\small_red_triangle_down.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smile.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smile.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smile_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smile_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smiley.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smiley.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smiley_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smiley_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smiling_imp.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smiling_imp.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smirk.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smirk.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smirk_cat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smirk_cat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\smoking.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\smoking.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\snail.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\snail.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\snake.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\snake.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\snowboarder.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\snowboarder.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\snowflake.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\snowflake.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\snowman.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\snowman.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sob.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sob.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\soccer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\soccer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\soon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\soon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sos.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sos.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sound.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sound.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\space_invader.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\space_invader.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\spades.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\spades.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\spaghetti.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\spaghetti.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sparkle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sparkle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sparkler.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sparkler.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sparkles.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sparkles.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sparkling_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sparkling_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\speak_no_evil.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\speak_no_evil.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\speaker.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\speaker.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\speech_balloon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\speech_balloon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\speedboat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\speedboat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\squirrel.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\squirrel.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\star.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\star.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\star2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\star2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\stars.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\stars.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\station.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\station.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\statue_of_liberty.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\statue_of_liberty.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\steam_locomotive.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\steam_locomotive.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\stew.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\stew.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\straight_ruler.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\straight_ruler.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\strawberry.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\strawberry.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\stuck_out_tongue.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\stuck_out_tongue.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\stuck_out_tongue_closed_eyes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\stuck_out_tongue_closed_eyes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\stuck_out_tongue_winking_eye.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\stuck_out_tongue_winking_eye.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sun_with_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sun_with_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sunflower.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sunflower.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sunglasses.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sunglasses.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sunny.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sunny.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sunrise.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sunrise.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sunrise_over_mountains.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sunrise_over_mountains.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\surfer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\surfer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sushi.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sushi.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\suspect.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\suspect.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\suspension_railway.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\suspension_railway.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sweat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sweat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sweat_drops.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sweat_drops.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sweat_smile.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sweat_smile.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\sweet_potato.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\sweet_potato.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\swimmer.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\swimmer.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\symbols.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\symbols.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\syringe.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\syringe.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tada.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tada.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tanabata_tree.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tanabata_tree.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tangerine.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tangerine.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\taurus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\taurus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\taxi.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\taxi.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tea.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tea.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\telephone.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\telephone.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\telephone_receiver.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\telephone_receiver.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\telescope.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\telescope.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tennis.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tennis.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tent.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tent.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\thought_balloon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\thought_balloon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\three.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\three.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\thumbsdown.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\thumbsdown.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\thumbsup.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\thumbsup.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\ticket.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\ticket.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tiger.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tiger.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tiger2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tiger2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tired_face.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tired_face.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tm.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tm.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\toilet.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\toilet.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tokyo_tower.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tokyo_tower.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tomato.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tomato.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tongue.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tongue.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\top.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\top.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tophat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tophat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tractor.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tractor.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\traffic_light.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\traffic_light.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\train.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\train.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\train2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\train2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tram.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tram.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\triangular_flag_on_post.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\triangular_flag_on_post.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\triangular_ruler.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\triangular_ruler.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\trident.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\trident.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\triumph.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\triumph.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\trolleybus.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\trolleybus.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\trollface.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\trollface.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\trophy.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\trophy.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tropical_drink.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tropical_drink.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tropical_fish.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tropical_fish.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\truck.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\truck.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\trumpet.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\trumpet.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tshirt.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tshirt.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tulip.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tulip.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\turtle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\turtle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\tv.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\tv.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\twisted_rightwards_arrows.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\twisted_rightwards_arrows.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\two.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\two.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\two_hearts.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\two_hearts.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\two_men_holding_hands.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\two_men_holding_hands.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\two_women_holding_hands.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\two_women_holding_hands.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u5272.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u5272.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u5408.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u5408.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u55b6.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u55b6.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u6307.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u6307.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u6708.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u6708.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u6709.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u6709.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u6e80.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u6e80.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u7121.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u7121.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u7533.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u7533.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u7981.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u7981.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\u7a7a.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\u7a7a.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\uk.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\uk.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\umbrella.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\umbrella.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\unamused.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\unamused.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\underage.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\underage.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\unlock.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\unlock.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\up.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\up.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\us.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\us.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\v.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\v.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\vertical_traffic_light.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\vertical_traffic_light.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\vhs.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\vhs.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\vibration_mode.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\vibration_mode.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\video_camera.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\video_camera.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\video_game.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\video_game.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\violin.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\violin.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\virgo.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\virgo.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\volcano.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\volcano.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\vs.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\vs.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\walking.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\walking.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\waning_crescent_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\waning_crescent_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\waning_gibbous_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\waning_gibbous_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\warning.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\warning.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\watch.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\watch.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\water_buffalo.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\water_buffalo.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\watermelon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\watermelon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wave.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wave.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wavy_dash.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wavy_dash.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\waxing_crescent_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\waxing_crescent_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\waxing_gibbous_moon.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\waxing_gibbous_moon.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wc.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wc.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\weary.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\weary.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wedding.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wedding.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\whale.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\whale.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\whale2.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\whale2.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wheelchair.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wheelchair.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_check_mark.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_check_mark.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_circle.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_circle.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_flower.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_flower.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_large_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_large_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_medium_small_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_medium_small_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_medium_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_medium_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_small_square.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_small_square.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\white_square_button.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\white_square_button.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wind_chime.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wind_chime.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wine_glass.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wine_glass.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wink.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wink.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wolf.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wolf.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\woman.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\woman.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\womans_clothes.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\womans_clothes.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\womans_hat.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\womans_hat.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\womens.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\womens.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\worried.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\worried.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\wrench.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\wrench.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\x.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\x.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\yellow_heart.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\yellow_heart.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\yen.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\yen.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\yum.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\yum.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\zap.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\zap.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\zero.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\zero.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\emoji\\zzz.png",
+      "PackagePath": "staticwebassets\\css\\emoji\\zzz.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\eventCalendar.css",
+      "PackagePath": "staticwebassets\\css\\eventCalendar.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\jquery.cookieBar.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.cookieBar.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\main.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\nprogress.css",
+      "PackagePath": "staticwebassets\\css\\nprogress.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\page-tour.css",
+      "PackagePath": "staticwebassets\\css\\page-tour.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\close.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\close.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\close.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\close.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\error.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\error.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\error.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\error.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next-faded.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next-faded.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next-small-faded.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next-small-faded.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next-small.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next-small.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next-small.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next-small.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\next.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\next.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous-faded.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous-faded.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous-small-faded.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous-small-faded.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous-small.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous-small.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous-small.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous-small.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous.png",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous.png"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\strip-skins\\strip\\previous.svg",
+      "PackagePath": "staticwebassets\\css\\strip-skins\\strip\\previous.svg"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\toast-notification.css",
+      "PackagePath": "staticwebassets\\css\\toast-notification.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\video-player.css",
+      "PackagePath": "staticwebassets\\css\\video-player.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\weather-icon.css",
+      "PackagePath": "staticwebassets\\css\\weather-icon.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\css\\weather-icons.min.css",
+      "PackagePath": "staticwebassets\\css\\weather-icons.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\js\\chat.js",
+      "PackagePath": "staticwebassets\\js\\chat.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\js\\main.min.js",
+      "PackagePath": "staticwebassets\\js\\main.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.js"
+    },
+    {
+      "Id": "D:\\duan\\Chat\\Chat\\wwwroot\\microsoft\\signalr\\dist\\browser\\signalr.min.js",
+      "PackagePath": "staticwebassets\\microsoft\\signalr\\dist\\browser\\signalr.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Chat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Chat.props",
+      "PackagePath": "build\\Chat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Chat.props",
+      "PackagePath": "buildMultiTargeting\\Chat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Chat.props",
+      "PackagePath": "buildTransitive\\Chat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

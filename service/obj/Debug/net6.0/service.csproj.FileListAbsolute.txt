@@ -1,0 +1,15 @@
+D:\duan\Chat\service\bin\Debug\net6.0\service.deps.json
+D:\duan\Chat\service\bin\Debug\net6.0\service.dll
+D:\duan\Chat\service\bin\Debug\net6.0\service.pdb
+D:\duan\Chat\service\bin\Debug\net6.0\models.dll
+D:\duan\Chat\service\bin\Debug\net6.0\models.pdb
+D:\duan\Chat\service\obj\Debug\net6.0\service.csproj.AssemblyReference.cache
+D:\duan\Chat\service\obj\Debug\net6.0\service.GeneratedMSBuildEditorConfig.editorconfig
+D:\duan\Chat\service\obj\Debug\net6.0\service.AssemblyInfoInputs.cache
+D:\duan\Chat\service\obj\Debug\net6.0\service.AssemblyInfo.cs
+D:\duan\Chat\service\obj\Debug\net6.0\service.csproj.CoreCompileInputs.cache
+D:\duan\Chat\service\obj\Debug\net6.0\service.csproj.CopyComplete
+D:\duan\Chat\service\obj\Debug\net6.0\service.dll
+D:\duan\Chat\service\obj\Debug\net6.0\refint\service.dll
+D:\duan\Chat\service\obj\Debug\net6.0\service.pdb
+D:\duan\Chat\service\obj\Debug\net6.0\ref\service.dll

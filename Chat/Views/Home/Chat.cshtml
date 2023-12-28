@@ -1,0 +1,131 @@
+﻿@model List<models.ModelData>
+<div class="container">
+    <div class="sidebar">
+        <div class="chat-list">
+            @if (Model != null && Model.Count > 0)
+            {
+                foreach (var modeldata in Model)
+                {
+                    <div class="chat-person" onclick="displayMessages(@modeldata.nguoiDung.id)">@modeldata.nguoiDung.id</div>
+                }
+            }
+        </div>
+    </div>
+    <div class="main">
+        <div class="chat-box" id="chat-box">
+        </div>
+        <div class="message-input">
+            <input type="text" id="message-input" placeholder="Type a message...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<style>
+    /* Styles for the chat interface */
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        display: flex;
+        height: 100vh;
+    }
+
+    .sidebar {
+        flex: 1;
+        background-color: #f2f2f2;
+        border-right: 1px solid #ccc;
+        overflow-y: auto;
+    }
+
+    .chat-list {
+        padding: 10px;
+    }
+
+    .chat-person {
+        padding: 8px;
+        cursor: pointer;
+    }
+
+        .chat-person.active {
+            background-color: #ddd;
+            font-weight: bold;
+        }
+
+    .main {
+        flex: 3;
+        padding: 20px;
+    }
+
+    .chat-box {
+        height: 400px;
+        overflow-y: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+
+    .message-input {
+        display: flex;
+    }
+
+    #message-input {
+        flex: 1;
+        padding: 8px;
+        margin-right: 5px;
+    }
+
+    button {
+        padding: 8px 15px;
+    }
+    /* Styles for chat messages */
+    .chat-messages {
+        list-style: none;
+        padding: 0;
+    }
+
+        .chat-messages li {
+            margin-bottom: 15px;
+            overflow: hidden;
+        }
+
+    .me {
+        text-align: right;
+    }
+
+        .me .chat-thumb {
+            float: right;
+            margin-left: 10px;
+        }
+
+    .you .chat-thumb {
+        float: left;
+        margin-right: 10px;
+    }
+    /* CSS */
+    .chat-thumb img {
+        width: 50px; /* Điều chỉnh chiều rộng của ảnh */
+        height: 50px; /* Điều chỉnh chiều cao của ảnh */
+    }
+
+</style>
+<script>
+    function displayMessages(idnguoidungnhan) {
+        $.ajax({
+            type: 'POST',
+            url: '/Home/TinNhan',
+            data: { idnguoidungnhan: idnguoidungnhan },
+            success: function (data) {
+                $('#chat-box').html(data);
+                $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+            },
+            error: function () {
+                alert('Đã xảy ra lỗi khi lấy tin nhắn.');
+            }
+        });
+    }
+</script>

@@ -1,0 +1,41 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Chat
+build_property.RootNamespace = Chat
+build_property.ProjectDir = D:\duan\Chat\Chat\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\duan\Chat\Chat
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/duan/Chat/Chat/Views/Home/Chat.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/duan/Chat/Chat/Views/Home/ChatBot.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDaGF0Qm90LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/duan/Chat/Chat/Views/Home/dangnhap.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxkYW5nbmhhcC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/duan/Chat/Chat/Views/Layout/headerleft.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XGhlYWRlcmxlZnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/duan/Chat/Chat/Views/Layout/headerright.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XGhlYWRlcnJpZ2h0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/duan/Chat/Chat/Views/Layout/Navbar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGF5b3V0XE5hdmJhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
