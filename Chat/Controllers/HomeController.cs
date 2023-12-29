@@ -13,12 +13,15 @@ namespace Chat.Controllers
         private readonly NguoiDungService nguoiDungService;
         private readonly KetBanService ketBanService;
         private readonly IconService iconService;
-        public HomeController(NhanTinService tinNhanServices, NguoiDungService nguoiDungServices, KetBanService ketBanServices, IconService iconServices)
+        private readonly TinNhan_IconService tinNhan_IconService;
+
+        public HomeController(NhanTinService tinNhanServices, NguoiDungService nguoiDungServices, KetBanService ketBanServices, IconService iconServices, TinNhan_IconService tinNhan_IconServices)
         {
             tinNhanService = tinNhanServices;
             nguoiDungService = nguoiDungServices;
             ketBanService = ketBanServices;
             iconService = iconServices;
+            tinNhan_IconService = tinNhan_IconServices;
         }
         public IActionResult dangnhap()
         {
@@ -195,9 +198,12 @@ namespace Chat.Controllers
                 ViewData["id"] = id;
                 ViewData["hovaten"] = hovaten;
                 ViewData["anhdaidien"] = anhdaidien;
+
                 List<NhanTin> tinnhanlisst = tinNhanService.GetAllTinNhanByIdGuiNhan(id, idnguoidungnhan);
+                List<Icon> listicon = iconService.GetallIcons();
                 NguoiDung nguoidung = nguoiDungService.GetAllById(idnguoidungnhan);
                 string html = "";
+
                 if (tinnhanlisst.Count > 0)
                 {
                     foreach (var tinNhan in tinnhanlisst)
@@ -205,33 +211,56 @@ namespace Chat.Controllers
                         string classs = (tinNhan.idnguoidungnhan == id) ? "me" : "you";
                         string anh = (classs == "me") ? nguoidung.anhdaidien : anhdaidien;
                         string thoigiangui = tinNhan.ThoiGianGui.ToString("HH:mm");
-                        html += $@"<li class=""{classs}"">
-                                                    <figure><img src=""{anh}"" alt=""""></figure>
-                                                    <div class=""text-box"">
-                                                        <p>
-                                                            {tinNhan.NoiDung}
-                                                        </p>
-                                                        <span>
-                                                            <i class=""ti-check""></i><i class=""ti-check""></i>
-                                                            {thoigiangui}
-                                                        </span>
-                                                    </div>
-                                                </li>";
+                        string iconsHtml = "";
+                        TinNhan_Icon tinNhan_Icon = tinNhan_IconService.TinNhaICon(tinNhan.id);
+                        if (tinNhan_Icon != null)
+                        {
+                            Icon icons = iconService.TinNhaICon(tinNhan_Icon.idicon);
+                            iconsHtml = $@"<p>{icons.icons}</p>";
+                        }
+                        html += $@"
+                    <li class=""{classs}"">
+                        <figure><img src=""{anh}"" alt=""""></figure>
+                        <div class=""text-box"">
+                            <p>{tinNhan.NoiDung}</p>
+                                <div class=""icons-container"">
+                                   {iconsHtml}
+                                </div>
+                            <span>
+                                <i class=""fas fa-check""></i><i class=""fas fa-check""></i>
+                                {thoigiangui}
+                            </span>
+                            <div class=""emoji-selector"" id=""emojiSelector"">
+                                <div class=""emojiessss"">
+                                    <i class=""emojies-icons"">
+                                        <i class=""fas fa-smile""></i>                                                                
+                                    </i>
+                                    <ul class=""emojies-lists"">";
+                        foreach (var icon in listicon)
+                        {
+                            html += $@"<li><a onclick=""timtinnhan('{icon.id}_{tinNhan.id}')"" title=''>{icon.icons}</a></li>";
+                        }
+                        html += @"
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>";
                     }
                 }
                 else
                 {
                     html += @"
-                    <div class=""mesge-area conversations"">
-											<div class=""empty-chat"">
-												<div class=""no-messages"">
-													<i class=""fas fa-comments""></i> 
-													<p>Nhập tin nhắn để gửi</p>
-												</div>
-											</div>
-										</div>
-";
+                <div class=""mesge-area conversations"">
+                    <div class=""empty-chat"">
+                        <div class=""no-messages"">
+                            <i class=""fas fa-comments""></i> 
+                            <p>Nhập tin nhắn để gửi</p>
+                        </div>
+                    </div>
+                </div>";
                 }
+
                 return Content(html);
             }
             else
@@ -239,6 +268,16 @@ namespace Chat.Controllers
                 return RedirectToAction("Index", "Home");
             }
         }
+
+        /*   private string GenerateEmojiList(List<Icon> listicon)
+           {
+               string emojiHtml = "";
+               foreach (var icon in listicon)
+               {
+                   emojiHtml += $@"<li><a onclick=""timtinnhan({icon.id})"" title=''>{icon.icons}</a></li>";
+               }
+               return emojiHtml;
+           }*/
         public IActionResult Nguoidung(int idnguoidungnhan)
         {
             if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null && HttpContext.Session.GetString("anhdaidien") != null)

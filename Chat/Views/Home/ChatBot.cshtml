@@ -182,6 +182,96 @@
         #sendButton:hover {
             background-color: #45a049;
         }
+
+    .emojiessss {
+        display: inline-block;
+        line-height: 49px;
+        margin: 0 5px;
+        position: relative;
+        vertical-align: baseline;
+    }
+
+    .emojies-lists {
+        background: #fff none repeat scroll 0 0;
+        border-radius: 8px;
+        bottom: 100%;
+        box-shadow: -7px 10px 20px rgba(0, 0, 0, 0.1);
+        display: inline-block;
+        line-height: initial;
+        list-style: outside none none;
+        margin: 0;
+        opacity: 0;
+        padding: 6px;
+        position: absolute;
+        right: -12px;
+        visibility: hidden;
+        width: 382px;
+        z-index: 9999;
+    }
+
+    .emojiessss > i {
+        cursor: pointer;
+        display: inline-block;
+    }
+
+        .emojiessss > i img {
+            max-width: 25px;
+        }
+
+    .emojies-lists > li {
+        display: inline-block;
+    }
+
+    .emojies-lists::after {
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-top: 10px solid #fff;
+        bottom: -7px;
+        content: "";
+        position: absolute;
+        right: 14px;
+        transition: all 0.4s linear 0s;
+    }
+
+    .emojies-lists > li > a {
+        display: inline-block;
+        padding: 3.1px;
+        transition: all 0.2s linear 0s;
+        width: 100%;
+    }
+
+        .emojies-lists > li > a img {
+            max-width: 24px;
+        }
+
+        .emojies-lists > li > a:hover {
+            transform: scale(1.1);
+        }
+
+    .emojiessss:hover .emojies-lists {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .message-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .message-item {
+        margin-bottom: 20px;
+    }
+
+    .message-content {
+        position: relative;
+    }
+
+    .icons-container {
+        position: absolute;
+        bottom: 0px;
+        left: -8px;
+    }
+
 </style>
 <script src="~/microsoft/signalr/dist/browser/signalr.js"></script>
 <script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
@@ -200,4 +290,21 @@
         var inputField = document.getElementById('NoiDunginput');
         inputField.value += icon;
     }
+    // Define the timtinnhan function to handle icon clicks
+    function timtinnhan(ids) {
+        // Split the concatenated string of IDs into individual IDs
+        var idArray = ids.split('_');
+
+        // Access individual IDs if needed
+        var iconId = idArray[0];
+        var tinNhanId = idArray[1];
+
+        // Perform actions based on the clicked icon IDs
+        console.log('Icon ID:', iconId);
+        console.log('TinNhan ID:', tinNhanId);
+
+        // You can add further functionality here based on the clicked icon IDs
+        // For instance, you might want to send an AJAX request or update the UI.
+    }
+
 </script>
