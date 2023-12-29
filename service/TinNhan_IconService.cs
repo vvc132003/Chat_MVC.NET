@@ -8,50 +8,54 @@ using System.Threading.Tasks;
 
 namespace service
 {
-    public class IconService
+    public class TinNhan_IconService
     {
-        public List<Icon> GetallIcons()
+        public List<TinNhan_Icon> GetallTinNhanIcon()
         {
-            List<Icon> iconlist = new List<Icon>();
+            List<TinNhan_Icon> tinNhan_Iconlist = new List<TinNhan_Icon>();
 
             using (SqlConnection connection = DBUtils.GetDBConnection())
             {
                 connection.Open();
-                string query = "SELECT * FROM Icon ";
+                string query = "SELECT * FROM TinNhan_Icon ";
                 SqlCommand command = new SqlCommand(query, connection);
                 using (SqlDataReader reader = command.ExecuteReader())
                 {
                     while (reader.Read())
                     {
-                        Icon tinNhan = new Icon()
+                        TinNhan_Icon tinNhan_Icon = new TinNhan_Icon()
                         {
                             id = Convert.ToInt32(reader["id"]),
-                            icons = reader["icons"].ToString(),
-                            thoigianthem = Convert.ToDateTime(reader["thoigianthem"]),
+                            idntinnhan = Convert.ToInt32(reader["idntinnhan"]),
+                            idicon = Convert.ToInt32(reader["idicon"]),
+                            thoigian = Convert.ToDateTime(reader["thoigian"]),
                         };
-                        iconlist.Add(tinNhan);
+                        tinNhan_Iconlist.Add(tinNhan_Icon);
                     }
                 }
             }
-            return iconlist;
+
+            return tinNhan_Iconlist;
         }
-        public Icon TinNhaICon(int id)
+        public TinNhan_Icon TinNhaICon(int idntinnhan)
         {
-            Icon tinNhan_Icon = null;
+            TinNhan_Icon tinNhan_Icon = null;
+
             using (SqlConnection connection = DBUtils.GetDBConnection())
             {
-                string selectQuery = "SELECT * FROM Icon WHERE id=@id";
+                string selectQuery = "SELECT * FROM TinNhan_Icon WHERE idntinnhan=@idntinnhan";
                 SqlCommand command = new SqlCommand(selectQuery, connection);
-                command.Parameters.AddWithValue("@id", id);
+                command.Parameters.AddWithValue("@idntinnhan", idntinnhan);
                 connection.Open();
                 SqlDataReader reader = command.ExecuteReader();
                 if (reader.Read())
                 {
-                    tinNhan_Icon = new Icon
+                    tinNhan_Icon = new TinNhan_Icon
                     {
                         id = Convert.ToInt32(reader["id"]),
-                        icons = reader["icons"].ToString(),
-                        thoigianthem = Convert.ToDateTime(reader["thoigianthem"]),
+                        idntinnhan = Convert.ToInt32(reader["idntinnhan"]),
+                        idicon = Convert.ToInt32(reader["idicon"]),
+                        thoigian = Convert.ToDateTime(reader["thoigian"]),
                     };
                 }
             }
