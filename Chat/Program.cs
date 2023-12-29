@@ -7,6 +7,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<KetBanService>();
 builder.Services.AddScoped<NguoiDungService>();
 builder.Services.AddScoped<NhanTinService>();
+builder.Services.AddScoped<IconService>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();

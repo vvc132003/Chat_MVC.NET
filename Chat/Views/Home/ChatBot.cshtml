@@ -110,9 +110,15 @@
                                         </div>
                                         <div class="message-writing-box">
                                             <div class="text-area">
+                                                <div id="text-area">
+                                                </div>
+                                                <div class="input-container">
+                                                    <input type="text" id="NoiDunginput" placeholder="Nhập tin nhắn">
+                                                    <div class="emojies">
+                                                    </div>
+                                                    <input type="button" id="sendButton" value="Gửi" />
+                                                </div>
                                             </div>
-                                            <input type="text" id="NoiDunginput" placeholder="Nhập tin nhắn">
-                                            <input type="button" id="sendButton" value="Gửi" />
                                         </div>
                                     </div>
                                     <div class="col-lg-4 col-md-4">
@@ -129,14 +135,34 @@
     </section>
 </div>
 <style>
+    .input-container {
+        position: relative;
+        display: flex;
+    }
+
+
+    .emojies {
+        position: absolute;
+        right: 120px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+        .emojies span {
+            cursor: pointer;
+            margin-left: 5px;
+            display: inline-block;
+        }
+
     #NoiDunginput {
-        width: 659px;
+        width: calc(100% - 69px);
         padding: 10px;
         margin-bottom: 0px;
         border: 1px solid #ccc;
         border-radius: 4px;
         font-size: 16px;
     }
+
 
     #sendButton {
         padding: 10px 20px;
@@ -146,7 +172,12 @@
         border-radius: 4px;
         cursor: pointer;
         font-size: 16px;
+        position: absolute;
+        right: 5px;
+        top: 50%;
+        transform: translateY(-50%);
     }
+
 
         #sendButton:hover {
             background-color: #45a049;
@@ -163,4 +194,10 @@
     $(document).ready(function () {
         callChatBot();
     });
+</script>
+<script>
+    function insertIcon(icon) {
+        var inputField = document.getElementById('NoiDunginput');
+        inputField.value += icon;
+    }
 </script>

@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using models;
 using service;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace Chat.Controllers
@@ -11,11 +12,13 @@ namespace Chat.Controllers
         private readonly NhanTinService tinNhanService;
         private readonly NguoiDungService nguoiDungService;
         private readonly KetBanService ketBanService;
-        public HomeController(NhanTinService tinNhanServices, NguoiDungService nguoiDungServices, KetBanService ketBanServices)
+        private readonly IconService iconService;
+        public HomeController(NhanTinService tinNhanServices, NguoiDungService nguoiDungServices, KetBanService ketBanServices, IconService iconServices)
         {
             tinNhanService = tinNhanServices;
             nguoiDungService = nguoiDungServices;
             ketBanService = ketBanServices;
+            iconService = iconServices;
         }
         public IActionResult dangnhap()
         {
@@ -157,6 +160,31 @@ namespace Chat.Controllers
                 return RedirectToAction("Index", "Home");
             }
         }
+        public IActionResult Iconsss()
+        {
+            if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null && HttpContext.Session.GetString("anhdaidien") != null)
+            {
+                int id = HttpContext.Session.GetInt32("id").Value;
+                string hovaten = HttpContext.Session.GetString("hovaten");
+                string anhdaidien = HttpContext.Session.GetString("anhdaidien");
+                ViewData["id"] = id;
+                ViewData["hovaten"] = hovaten;
+                ViewData["anhdaidien"] = anhdaidien;
+                List<Icon> listicon = iconService.GetallIcons();
+                string html = $"<i class=\"fas fa-smile\"></i><ul class='emojies-list'>\r\n";
+                foreach (var icon in listicon)
+                {
+                    html += $@"<li><a onclick=""insertIcon('{icon.icons.Replace("'", "\\'")}')"" title=''>{icon.icons}</a></li>";
+                }
+                html += "</ul>";
+                return Content(html);
+            }
+            else
+            {
+                return RedirectToAction("Index", "Home");
+            }
+        }
+
         public IActionResult TinNhan(int idnguoidungnhan)
         {
             if (HttpContext.Session.GetInt32("id") != null && HttpContext.Session.GetString("hovaten") != null && HttpContext.Session.GetString("anhdaidien") != null)

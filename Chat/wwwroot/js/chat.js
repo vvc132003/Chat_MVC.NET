@@ -8,7 +8,7 @@ connection.on("ReceiveMessage", function (idnguoidunggui, idnguoidungnhan, NoiDu
     callChatBot();
 });
 connection.start().then(function () {
-    document.getElementById("sendButton").disabled = false;
+    document.getElementById("sendButton").disabled = false; ``
 }).catch(function (err) {
     return console.error(err.toString());
 });
@@ -27,11 +27,11 @@ function displayMessages(idnguoidungnhan) {
         url: '/Home/Tennguoidung',
         data: { idnguoidungnhan: idnguoidungnhan },
         success: function (data) {
-            $('.text-area').html(data);
-            $('.text-area').scrollTop($('.text-area')[0].scrollHeight);
-            $('.text-area').css({ 'display': 'block' });
-            $('.text-area li').on('click', function () {
-                $('.text-area').css({ 'display': 'none' });
+            $('#text-area').html(data);
+            $('#text-area').scrollTop($('#text-area')[0].scrollHeight);
+            $('#text-area').css({ 'display': 'block' });
+            $('#text-area li').on('click', function () {
+                $('#text-area').css({ 'display': 'none' });
             });
         }
     });
@@ -78,6 +78,17 @@ function callChatBot() {
         type: 'POST',
         success: function (data) {
             $('#msg-pepl-list').html(data);
+        },
+        error: function () {
+            alert('Đã xảy ra lỗi khi lấy tin nhắn.');
+        }
+    });
+    $.ajax({
+        type: 'POST',
+        url: '/Home/Iconsss',
+        success: function (data) {
+            $('.emojies').html(data);
+            $('.emojies').scrollTop($('.emojies')[0].scrollHeight);
         },
         error: function () {
             alert('Đã xảy ra lỗi khi lấy tin nhắn.');
