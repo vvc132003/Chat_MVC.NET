@@ -271,7 +271,6 @@
         bottom: 0px;
         left: -8px;
     }
-
 </style>
 <script src="~/microsoft/signalr/dist/browser/signalr.js"></script>
 <script src="~/microsoft/signalr/dist/browser/signalr.min.js"></script>
@@ -290,21 +289,4 @@
         var inputField = document.getElementById('NoiDunginput');
         inputField.value += icon;
     }
-    // Define the timtinnhan function to handle icon clicks
-    function timtinnhan(ids) {
-        // Split the concatenated string of IDs into individual IDs
-        var idArray = ids.split('_');
-
-        // Access individual IDs if needed
-        var iconId = idArray[0];
-        var tinNhanId = idArray[1];
-
-        // Perform actions based on the clicked icon IDs
-        console.log('Icon ID:', iconId);
-        console.log('TinNhan ID:', tinNhanId);
-
-        // You can add further functionality here based on the clicked icon IDs
-        // For instance, you might want to send an AJAX request or update the UI.
-    }
-
 </script>

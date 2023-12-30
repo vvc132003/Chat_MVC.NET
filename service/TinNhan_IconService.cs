@@ -61,5 +61,28 @@ namespace service
             }
             return tinNhan_Icon;
         }
+        public async Task ThemTinNhanIcon(int idntinnhan, int idicon)
+        {
+            string query = "INSERT INTO TinNhan_Icon (thoigian, idntinnhan, idicon) VALUES (@thoigian, @idntinnhan, @idicon)";
+
+            using (SqlConnection connection = DBUtils.GetDBConnection())
+            {
+                using (SqlCommand command = new SqlCommand(query, connection))
+                {
+                    command.Parameters.AddWithValue("@thoigian", DateTime.Now);
+                    command.Parameters.AddWithValue("@idntinnhan", idntinnhan);
+                    command.Parameters.AddWithValue("@idicon", idicon);
+                    try
+                    {
+                        await connection.OpenAsync();
+                        await command.ExecuteNonQueryAsync();
+                    }
+                    catch (SqlException e)
+                    {
+                        Console.WriteLine(e.Message);
+                    }
+                }
+            }
+        }
     }
 }

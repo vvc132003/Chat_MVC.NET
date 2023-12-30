@@ -238,7 +238,10 @@ namespace Chat.Controllers
                                     <ul class=""emojies-lists"">";
                         foreach (var icon in listicon)
                         {
-                            html += $@"<li><a onclick=""timtinnhan('{icon.id}_{tinNhan.id}')"" title=''>{icon.icons}</a></li>";
+                            html += $@"<li>
+                                        <a><input type=""button"" class=""sentimButton_{icon.id}_{tinNhan.id}_{idnguoidungnhan}"" value=""{icon.icons}""  /></a>
+                                    </li>
+                                        ";
                         }
                         html += @"
                                     </ul>

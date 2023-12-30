@@ -30,6 +30,39 @@ function chat() {
         chatInitialized = true;
     }
 }
+function timtinnhan() {
+    var connection = new signalR.HubConnectionBuilder().withUrl("/chatHub").build();
+    connection.on("ReceiveMessage", function (idicon, idntinnhan, idnguoidungnhan) {
+        displayMessages(idnguoidungnhan);
+        callChatBot();
+    });
+
+    connection.start()
+        .then(function () {
+            var buttons = document.querySelectorAll('[class^="sentimButton_"]');
+            buttons.forEach(function (button) {
+                button.disabled = false;
+                button.addEventListener("click", function (event) {
+                    var classes = event.target.className.split('_');
+                    var idicon = parseInt(classes[1]);
+                    var idntinnhan = parseInt(classes[2]);
+                    var idnguoidungnhan = parseInt(classes[3]);
+                    connection.invoke("SendTimTinNhan", idicon, idntinnhan, idnguoidungnhan)
+                        .catch(function (err) {
+                            return console.error(err.toString());
+                        });
+                    event.preventDefault();
+                });
+            });
+        })
+        .catch(function (err) {
+            return console.error(err.toString());
+        });
+}
+
+
+
+
 function displayMessages(idnguoidungnhan) {
     $.ajax({
         type: 'POST',
@@ -51,6 +84,7 @@ function displayMessages(idnguoidungnhan) {
         success: function (data) {
             $('#conversations').html(data);
             $('#conversations').scrollTop($('#conversations')[0].scrollHeight);
+            timtinnhan();
         },
         error: function () {
             alert('Đã xảy ra lỗi khi lấy tin nhắn.');
